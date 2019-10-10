@@ -8,6 +8,6 @@ if user_input == num.to_s
   elsif user_input == "exit"
     puts "Goodbye!"
   else
-    puts "Sorry! The computer guessed"
+    puts "Sorry! The computer guessed #{num}"
   end
 end
